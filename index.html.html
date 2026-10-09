@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Nandhitha P - B.Tech Information Technology student at MZCET and aspiring software developer.">
+  <title>Nandhitha P | B.Tech IT Student</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Fraunces:wght@600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header class="nav">
+    <a class="logo" href="#home">NP</a>
+    <button class="menu-btn" id="menuBtn" aria-label="Toggle menu">&#9776;</button>
+    <nav id="navMenu" class="nav-links">
+      <a href="#home">Home</a>
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#education">Education</a>
+      <a href="#projects">Projects</a>
+      <a href="#resume">Resume</a>
+      <a href="#contact">Contact</a>
+      <button id="themeBtn" class="theme-btn" aria-label="Switch theme">Dark</button>
+    </nav>
+  </header>
+
+  <main>
+    <section id="home" class="hero">
+      <p class="eyebrow">Hello, I'm</p>
+      <h1>Nandhitha P</h1>
+      <h2>B.Tech Information Technology Student<br><span>&amp; Aspiring Software Developer</span></h2>
+      <p class="lead">I am a third-year Information Technology student at MZCET, interested in building web applications and learning software development through practical projects.</p>
+      <div class="actions">
+        <a class="btn primary" href="#projects">View Projects</a>
+        <a class="btn" href="#contact">Contact Me</a>
+      </div>
+    </section>
+
+    <section id="about" class="section">
+      <h3 class="label">About</h3>
+      <h2>A little about me.</h2>
+      <p>[Write 3 to 4 lines about yourself here: your interests, what you are learning, and your career goal.]</p>
+    </section>
+
+    <section id="skills" class="section alt">
+      <h3 class="label">Skills</h3>
+      <h2>Tools I use to build ideas.</h2>
+      <div class="grid">
+        <div class="card"><h4>HTML5</h4><p>Semantic, structured web pages.</p><div class="bar"><i style="width:90%"></i></div></div>
+        <div class="card"><h4>CSS3</h4><p>Responsive layouts and styling.</p><div class="bar"><i style="width:85%"></i></div></div>
+        <div class="card"><h4>JavaScript</h4><p>Interactive web features.</p><div class="bar"><i style="width:75%"></i></div></div>
+        <div class="card"><h4>Git &amp; GitHub</h4><p>Version control and hosting.</p><div class="bar"><i style="width:70%"></i></div></div>
+      </div>
+      <p class="note">Edit the skills and percentages to match your real level.</p>
+    </section>
+
+    <section id="education" class="section">
+      <h3 class="label">Education</h3>
+      <h2>My academic journey.</h2>
+      <div class="timeline">
+        <div class="item"><h4>B.Tech Information Technology</h4><p>Mount Zion College of Engineering and Technology (MZCET)<br>Expected graduation: 2028</p></div>
+        <div class="item"><h4>Higher Secondary (12th)</h4><p>[School name, year, percentage]</p></div>
+        <div class="item"><h4>Secondary (10th)</h4><p>[School name, year, percentage]</p></div>
+      </div>
+    </section>
+
+    <section id="projects" class="section alt">
+      <h3 class="label">Projects</h3>
+      <h2>Things I have built.</h2>
+      <div class="grid two">
+        <article class="card">
+          <span class="num">01</span>
+          <h4>Personal Portfolio Website</h4>
+          <p>A responsive portfolio built with HTML, CSS and JavaScript and hosted on GitHub Pages.</p>
+        </article>
+        <article class="card">
+          <span class="num">02</span>
+          <h4>[Your second project]</h4>
+          <p>[Describe the project in one or two lines and the technologies you used.]</p>
+        </article>
+      </div>
+    </section>
+
+    <section id="resume" class="section">
+      <h3 class="label">Resume</h3>
+      <h2>Want to know more about me?</h2>
+      <p>View or download my latest resume.</p>
+      <div class="actions">
+        <a class="btn" href="resume.pdf" target="_blank" rel="noopener">View Resume</a>
+        <a class="btn primary" href="resume.pdf" download>Download Resume</a>
+      </div>
+    </section>
+
+    <section id="contact" class="section alt">
+      <h3 class="label">Contact</h3>
+      <h2>Let's connect and build something.</h2>
+      <div class="contact-wrap">
+        <ul class="info">
+          <li><strong>Email:</strong> [your-email@example.com]</li>
+          <li><strong>Location:</strong> [Your city, Tamil Nadu]</li>
+          <li><strong>GitHub:</strong> [your-github-username]</li>
+        </ul>
+        <form id="contactForm" novalidate>
+          <label>Name <input type="text" id="name" placeholder="Your name"></label>
+          <label>Email <input type="email" id="email" placeholder="Your email"></label>
+          <label>Message <textarea id="message" rows="4" placeholder="Write your message here..."></textarea></label>
+          <button class="btn primary" type="submit">Send Message</button>
+          <p id="formStatus" role="status"></p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer>&copy; 2026 Nandhitha P. All rights reserved.</footer>
+  <script src="script.js"></script>
+</body>
+</html>
